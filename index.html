@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title></title> 
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                margin: 0;
+                height: 100vh;
+                width: 100vw;
+                overflow: hidden;
+                font-family: "lato", sans-serif;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #555;
+                background-color: #ecf0f3;
+                
+            }
+            .login-div{
+                width: 830px;
+                height: 530px;
+                padding: 60px 35px 35px 35px;
+                border-radius: 30px;
+                background-color: #ecf0f3;
+                box-shadow: 15px 15px 20px #cdced1, -15px -15px 20px #fff;
+            }
+            #img{
+                position: absolute;
+                right: 700px;
+                bottom: 580px;
+            }
+            #fon{
+                position: absolute;
+                right: 670px;
+                bottom: 484px;
+                font-weight: bold;
+                font-size: 45px;
+                
+            }
+            #user{
+                position: absolute;
+                right: 550px;
+                bottom: 400px;
+                border: none;
+                outline: none;
+                background: none;
+                font-size: 32px;
+                padding-top: 15px;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                padding-right: 25px;
+                border-radius: 10px;
+                background-color: #ecf0f3;
+                box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;              
+
+            }
+            #pass{
+                position: absolute;
+                right: 550px;
+                bottom: 300px;
+                border: none;
+                outline: none;
+                background: none;
+                font-size: 32px;
+                padding-top: 15px;
+                padding-left: 25px;
+                padding-bottom: 15px;
+                padding-right: 25px;
+                border-radius: 10px;
+                background-color: #ecf0f3;
+                box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;   
+            }
+            #login{
+                position: absolute;
+                right: 602px;
+                bottom: 200px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 120px;
+                padding-right: 120px;
+                font-size: 34px;
+                font-weight: bold;
+                border-radius: 7px;
+                border-color:#007fc3;
+                cursor: pointer;
+                outline: none;
+                border: none;
+                color:aliceblue;
+                background-color: #007fc3;
+            }
+            #login:hover{
+                background-color: #46eaff;
+                color: #207fff
+            }
+            #forget{
+                position: absolute;
+                right: 700px;
+                bottom: 150px;
+                color: #007fc3;
+
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="login-div"></div>
+        <img id="img" src="avat.webp" width="140" height="140" />
+        <div>
+            <h2 id="fon">Welcome</h2>
+        </div>
+        <div>
+            <input id="user" type="txet" placeholder="Username" />
+        </div>
+        <div>
+            <input id="pass" type="password" placeholder="Password" />
+        </div>
+        <div>
+            <input id="login" type="submit" value="Login" />
+        </div>
+        <div id="forget">
+            Forgot Password?
+        </div>
+    </body>
+</html>
